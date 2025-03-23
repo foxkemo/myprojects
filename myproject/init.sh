@@ -11,11 +11,10 @@ if [ -f "source.txt" ]
 then
 rm source.txt
 fi
-mkdir bin
 find src -name "*.java" > source.txt
 javac -d bin @source.txt
 jar --create --file myjar.jar --main-class com.mypack.Main  -C bin .
-rm source.txt
+#rm source.txt
 else
 exit
 fi
