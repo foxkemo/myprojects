@@ -14,6 +14,7 @@ fi
 find src -name "*.java" > source.txt
 javac -d bin @source.txt
 jar --create --file myjar.jar --main-class com.mypack.Main  -C bin .
+jmod create --class-path myjar.jar mymod.jmod
 #rm source.txt
 else
 exit
