@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "this script will delete the bin folder that is already exist , continue(y)?"
 read choice
-if [ "$choice"="y" ]
+if [ "$choice" = "y" ]
 then
 if [ -d "bin" ]
 then
@@ -15,7 +15,15 @@ find src -name "*.java" > source.txt
 javac -d bin @source.txt
 jar --create --file myjar.jar --main-class com.mypack.Main  -C bin .
 #jmod create --class-path myjar.jar mymod.jmod
-#rm source.txt
+rm source.txt
+echo "it will run myjar.jar,continue(y)?"
+read choice2;
+if [ "$choice2" = "y" ]
+then
+java -jar myjar.jar
+else
+exit
+fi
 else
 exit
 fi

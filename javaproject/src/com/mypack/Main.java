@@ -6,6 +6,7 @@ public class Main {
     System.out.println("hello ,input your choice(1,2,3) to run test(1,2,3) method");
     int choice;
     Scanner scan=new Scanner(System.in);
+/* System.in 构造参数 不可少 */
     choice=scan.nextInt();
     switch (choice){
       case 1:
@@ -19,6 +20,7 @@ public class Main {
       break;
       default:
       System.out.println("invalid input");
+      break;
     }
 
 
