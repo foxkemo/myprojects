@@ -23,11 +23,10 @@ public class Test{
           }
       }
 
-
-
     }
     static void test3 (){
       System.out.println("test3");
+      Find myfind=new Find();
     }
 
 }

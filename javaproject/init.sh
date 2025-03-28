@@ -11,6 +11,9 @@ if [ -f "source.txt" ]
 then
 rm source.txt
 fi
+else
+exit
+fi
 find src -name "*.java" > source.txt
 javac -d bin @source.txt
 jar --create --file myjar.jar --main-class com.mypack.Main  -C bin .
@@ -21,9 +24,6 @@ read choice2;
 if [ "$choice2" = "y" ]
 then
 java -jar myjar.jar
-else
-exit
-fi
 else
 exit
 fi
