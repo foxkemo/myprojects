@@ -22,6 +22,7 @@ public class Main {
 		met.invoke(p,name);
 		System.out.println(p.getName()); // "Xiao Ming"
 		System.out.println(p.getAge()); // 20
-		System.out.println(met); // 20		
+		System.out.println(met); // 20	
+			
 	}
 }
