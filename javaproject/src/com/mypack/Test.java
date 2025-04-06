@@ -1,7 +1,7 @@
 package com.mypack;
 import java.util.Scanner;
 import java.util.regex.*;
-import com.mypack.StringOperate;
+import com.mypack.*;
 public class Test{
     static Scanner scanner =new Scanner(System.in);
     static void test1 (){
@@ -26,8 +26,9 @@ public class Test{
 
     }
     static void test3 (){
-      System.out.println("test3");
-      Find myfind=new Find();
+      System.out.println("test3：多线程测试");
+      ThreadTest.start();
+//      Find myfind=new Find();
     }
     static void test4 (){
       System.out.println("String 测试");
