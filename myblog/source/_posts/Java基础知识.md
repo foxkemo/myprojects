@@ -9,7 +9,8 @@ tags: Java
      `Object` 类是 Java 中所有类的祖宗类，所有类默认都继承它。它定义了一组最基础、最通用的方法，**每个 Java 对象都可以使用这些方法**。
 
 ---
-
+# Object method
+ 
 ## 🧬 Object 类的所有方法一览
 
 | 方法名 | 作用简述 |
@@ -123,7 +124,7 @@ synchronized(obj) {
 Java 集合（Collection）框架提供了大量的方法，用于操作各种集合类型，如 `List`、`Set`、`Map` 等。下面是一些常用集合接口和它们的方法简要整理：
 
 ---
-
+# 集合类 有关 函数  
 ## 🧺 一、Collection 接口（List、Set 的父接口）
 
 常用方法：
