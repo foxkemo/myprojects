@@ -27,7 +27,7 @@ public class Test{
     }
     static void test3 (){
       System.out.println("test3：多线程测试");
-      ThreadTest.start();
+//      ThreadTest.start();
 //      Find myfind=new Find();
     }
     static void test4 (){
