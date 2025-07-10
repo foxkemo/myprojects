@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,15 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e3d9e8a-d13c-4fba-98b3-bf6141fc3079" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/bin/com/mypack/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mypack/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/com/mypack/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/bin/com/mypack/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/init.sh" beforeDir="false" afterPath="$PROJECT_DIR$/init.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myjar.jar" beforeDir="false" afterPath="$PROJECT_DIR$/myjar.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mypack/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mypack/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mypack/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mypack/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myblog/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../myblog/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myblog/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../myblog/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../myblog/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../myblog/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../web/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/bin/com/design/DesignTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../design/bin/com/design/DesignTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/bin/com/design/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../design/bin/com/design/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/bin/com/design/PrintLog.class" beforeDir="false" afterPath="$PROJECT_DIR$/../design/bin/com/design/PrintLog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/bin/com/design/Server.class" beforeDir="false" afterPath="$PROJECT_DIR$/../design/bin/com/design/Server.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../design/bin/com/design/Tools.class" beforeDir="false" afterPath="$PROJECT_DIR$/../design/bin/com/design/Tools.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../web/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/mystyle.css" beforeDir="false" afterPath="$PROJECT_DIR$/../web/mystyle.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,16 +40,36 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
   <component name="ProjectId" id="2v7MwhBPLfBSdrdrfOXovpM4Qpy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/DOWNLOAD/Github/myprojects/javaproject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-28b599e66164-intellij.indexing.shared.core-IU-242.23726.103" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-IU-242.23726.103" />
+      </set>
+    </attachedChunks>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,8 +79,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743491901068</updated>
+      <workItem from="1752060308948" duration="581000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -70,7 +96,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="487" y="177" key="RollbackChangesDialog" timestamp="1743491995033">
