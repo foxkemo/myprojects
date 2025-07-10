@@ -1,3 +1,6 @@
-body{
-    background-image:  url("image/1.png")
+.navbar {
+
+    background-color: #333;
+    overflow: hidden;
+    height: auto;
 }
