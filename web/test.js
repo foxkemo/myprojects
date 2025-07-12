@@ -13,4 +13,3 @@ let userInfo=new Map();
 userInfo.set("remainingDownloadTimes",0);
 userInfo.set("totalDownloadTimes",0);
 
-

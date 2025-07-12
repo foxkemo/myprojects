@@ -1,6 +1,19 @@
-.navbar {
-
-    background-color: #333;
-    overflow: hidden;
-    height: auto;
+@font-face  {
+    font-family: "textFont";
+    src: url('./fonts/text.ttf') format('truetype');
 }
+
+@keyframes example {
+    0%   { background-image: url("/image/1.jpg"); left: 0px; }
+    50%  { background-image: url("/image/2.jpg") ; left: 100px; }
+    100% { background-image: url("/image/3.jpg") ; left: 0px; }
+}
+
+
+.textContainer{
+    display: flex;
+    font-family: "textFont", sans-serif;
+
+
+}
+
